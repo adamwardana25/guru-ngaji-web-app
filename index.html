@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQRA</title>
+<!-- CSS Style -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+<!-- HEADER -->
+    <header>
+        <div class="littletron">
+            <img src="assets/images/bismillah.png" alt="">
+        </div>
+        <nav id="navbar">
+            <div class="logo">
+                <h2>IQRA</h2>
+            </div>
+            <div class="nav-content">
+                <ul id="sideNav" >
+                    <li><a href="#beranda-section">BERANDA</a></li>
+                    <li><a href="#program-section">PROGRAM</a></li>
+                    <li><a href="#tentang-section">TENTANG KAMI</a></li>
+                    <li><a href="#kontak-section">KONTAK</a></li>
+                    <li class="close"><a onclick="offNav()" style="font-size: 25px; color: red;" href="">&times;</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <p onclick="onNav()" style="font-size: 25px; color: white;">&#9776;</p>
+            </div>
+        </nav>
+    </header>
+<!-- MAIN -->
+    <main class="flex-column">
+        <!-- Content -->
+        <article id="beranda-section" class="section">
+            <div class="content mgtop middle">
+                <h1 style="color: #01937C; font-size: 35px;">Ganteng & Cantik Doang Belum Bisa Ngaji ?</h1>
+                <div class="flex-row mgtop">
+                    <img class="maskot" src="assets/images/muslim_man.png" alt="">
+                    <div class="beranda-1 middle mgtop">
+                        <h1 style="color: #FF8B00; font-size: 35px;">IQRA Solusinya</h1>
+                        <p style="color: #01937C; font-size: 35px; ">Membuat Anda Bisa Ngaji Sehingga Ganteng & Cantik Menjadi Maksimal </p>
+                    </div>
+                    <img class="maskot" src="assets/images/muslim_girl.png" alt="">
+                </div>
+            </div>
+        </article>
+        
+        <hr>
+        <!-- BELAJAR MENGAJI AL-QURAN DEWASA & ANAK-ANAK -->
+        <article>
+            <div class="content mgtop flex-row">
+                <img src="assets/images/logo.png" alt="">
+                <div class="beranda-2">
+                    <h1 style="color: #01937C; font-size: 40px;">Belajar mengaji Al-Quran <br> Dewasa & Anak-anak</h1>
+                    <p style="color: #494949; font-size: 20px; line-height: 1.5em;"> Anda belum bisa mengaji / mau memperlancar membaca Al-Quran <br>
+                        IQRO telah hadir di JABODETABEK dan sekitarnya. <br>
+                        Belajar ngaji Offline & Online, Private/Kelompok
+                        
+                    </p>
+
+                </div>
+            </div>
+        </article>
+
+        <hr>
+        <!-- PENGAJAR PROFESIONAL -->
+        <article>
+            <div class="content mgtop middle">
+                <h1 style="color: #01937C; font-size: 40px;">Pengajar Profesional</h1>
+                <p style="color: #494949; font-size: 20px;">IQRA memastikan anda belajar pada ahlinya, kami menyediakan guru ngaji terbaik.</p>
+                <div class="pengajar-pro flex-row">
+                    <div class="pengajar flex-column mgtop card">
+                        <img src="assets/images/aa_gym.png" alt="">
+                        <h3 style="color: #01937C;">KH Abdullah Gymnastiar</h3>
+                        <p>
+                            Pengajar Tahsin dan Tahfidz<br>
+                            Daerah Jakarta Pusat
+                        </p>
+                        <a href="https://wa.me/082111116025">
+                            <div class="wa-pengajar flex-row">
+                                <img src="assets/icons/wa.png" alt="">
+                                <p>Atur Jadwal</p>
+                            </div>
+                        </a>
+                    </div>
+    
+                    <div class="pengajar flex-column mgtop card">
+                        <img src="assets/images/abdul_somad.png" alt="">
+                        <h3 style="color: #01937C;">Ust Abdul Somad, Lc., M.A</h3>
+                        <p>
+                            Pengajar Bahasa Arab <br>
+                            Daerah Jakarta Pusat
+                        </p>
+                        <a href="https://wa.me/082111116025">
+                            <div class="wa-pengajar flex-row">
+                                <img src="assets/icons/wa.png" alt="">
+                                <p>Atur Jadwal</p>
+                            </div>
+                        </a>
+                    </div>
+    
+                    <div class="pengajar flex-column mgtop card">
+                        <img src="assets/images/adi_hidayat.png" alt="">
+                        <h3 style="color: #01937C;">Ust Adi Hidayat, Lc., M.A.</h3>
+                        <p>
+                            Pengajar Tahsin dan Tahfidz <br> 
+                            Daerah Jakarta Pusat
+                        </p>
+                        <a href="https://wa.me/082111116025">
+                            <div class="wa-pengajar flex-row">
+                                <img src="assets/icons/wa.png" alt="">
+                                <p>Atur Jadwal</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <div class="container flex-row mgtop">
+            <a href="assets/pages/semua-pengajar.html">
+                <div class="semua-pengajar">
+                    <p>Semua Pengajar >></p>
+                </div>
+            </a>
+        </div>
+        
+        <hr>
+        <!-- PROGRAM BIMBINGAN -->
+        <article class="section" id="program-section">
+            <div class="program-bimbingan mgtop content middle">
+                <h1 style="color: #01937C; font-size: 40px;">Program Bimbingan Belajar Ngaji</h1>
+                <p style="color: #7A7A7A; font-size: 20px;">
+                    "Jangan terpesona dengan kehidupanmu di dunia <br> 
+                    sehingga meninggalkan kehidupan akhirat." <br>
+                    (Imam Syafi'i)
+                </p>
+                <p style="color: #494949; font-size: 20px;">Oleh karena itu marilah kita belajar ngaji untuk bekal kita di akhirat nanti.</p>
+                <div class="kumpulan-program flex-row mgtop">
+    
+                    <div class="program tahsin flex-row card">
+                        <div class="flex-column">
+                            <h1 style="color: #01937C;">Tahsin Al-Quran</h1>
+                            <p> Belum bisa baca Al-Quran 
+                                atau Mau memperdalam membaca Al-Quran
+                                ikuti program Tahsin Quran
+                            </p>
+                        </div>
+                        <img src="assets/images/read_quran.png" alt=""> 
+                    </div>
+    
+                    <div class="program bahasa flex-row card">
+                        <div class="program-bahasa flex-column">
+                            <h1 style="color: #01937C;">Bahasa Arab</h1>
+                            <p> Mau bisa Bahasa Arab dengan lancar, atau mau mengerti terjemahan 
+                                Al-Quran ikuti program Bahasa Arab
+                            </p>
+                        </div>
+                        <img src="assets/images/bahasa_arab.png" alt=""> 
+                    </div>
+                    
+                </div>
+            </div>
+        </article>
+        <hr id="tentang-section">
+        <!-- TENTANG KAMI -->
+        <aside  class="section content mgtop middle">
+            <h1 style="color: #01937C; font-size: 40px;">Tentang Kami</h1>
+                <p style="color: #7A7A7A; font-size: 20px;">
+                    Dalam membangun aplikasi IQRO, <br>
+                    Kami mempunyai tim yang terdiri dari 3 orang diantaranya yaitu ;
+                </p>
+            <div class="profile-kami flex-row mgtop">
+                <div class="profile flex-column card">
+                    <h1 style="color: #01937C; font-size: 20px;">Produk Desain</h1>
+                    <img class="mgtop" src="assets/images/profile.png" alt="">
+                    <h1 class="mgtop" style="color: #01937C; font-size: 20px;">Adam Wardana</h1>
+                    <p style="color: #7A7A7A;">Sumedang</p>
+                </div>
+
+                <div class="profile flex-column card">
+                    <h1 style="color: #01937C; font-size: 20px;">UI/UX</h1>
+                    <img class="mgtop" src="assets/images/profile.png" alt="">
+                    <h1 class="mgtop" style="color: #01937C; font-size: 20px;">Adam Wardana</h1>
+                    <p style="color: #7A7A7A;">Bandung</p>
+                </div>
+
+                <div class="profile flex-column card">
+                    <h1 style="color: #01937C; font-size: 20px;">Fronted Developer</h1>
+                    <img class="mgtop" src="assets/images/profile.png" alt="">
+                    <h1 class="mgtop" style="color: #01937C; font-size: 20px;">Adam Wardana</h1>
+                    <p style="color: #7A7A7A;">Jakarta Pusat</p>
+                </div>
+            </div>
+        </aside>
+    </main>
+<!-- FOOTER -->
+    <footer id="kontak-section" class="section middle mgtop" style="color: white;">
+        <h4>Kontak Kami</h4>
+        <div class="kontak">
+            <a href="https://wa.me/082111116025"><img src="assets/icons/wa.png" alt=""></a>
+            <a href="https://wa.me/082111116025"><img src="assets/icons/twt.png" alt=""></a>
+            <a href="https://wa.me/082111116025"><img src="assets/icons/ig.png" alt=""></a>
+            <a href="https://wa.me/082111116025"><img src="assets/icons/fb.png" alt=""></a>
+            <a href="https://wa.me/082111116025"><img src="assets/icons/email.png" alt=""></a>
+        </div>
+        <p>&copy; 2021, IQRO</p>
+        <p>Made with <span style="color: red;">❤</span> by Adam Wardana</p>
+    </footer>
+<!-- JavaScript -->
+<script src="assets/styles/style.js"></script>
+
+</body>
+</html>

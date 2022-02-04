@@ -1,0 +1,299 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body, head, h1, h2 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ! HEADER */
+
+.littletron {
+    background-color: #01937C;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.littletron img {
+    height: 45px;
+}
+
+header {
+    display: inline;
+}
+
+nav{
+    height: 48px;
+    display: flex;
+    list-style: none;
+    background-color: #01937C;
+    align-items: center;
+    padding: 0 10%;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .logo{
+    color: white;
+}
+
+.nav-content ul{
+    display: flex;
+    list-style: none;
+    font-family: "Arvo", serif;
+}
+
+.close {
+    display: none;
+}
+
+.nav-content li a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+}
+
+.nav-content li a:hover{
+    color: #FF8B00;
+}
+
+.menu {
+    display: none;
+}
+
+
+/* ! MAIN */
+
+hr {
+    color: white;
+    margin: 5% 0 0 0;
+}
+
+.content {
+    margin: 0 10%;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.mgtop {
+    margin-top: 5%;
+}
+
+.mgbottom {
+    margin-bottom: 5%;
+}
+
+.middle {
+    text-align: center;
+}
+
+.beranda-2 {
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.pengajar {
+    width: 35vh;
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+    border-radius: 12px;
+    
+}
+
+.pengajar a {
+    color: white;
+    text-decoration: none;
+}
+
+.wa-pengajar {
+    background-color: #FF8B00;
+    width: 120px;
+    border-radius: 8px;
+    align-items: center;
+    padding: 0 14px;
+}
+
+.wa-pengajar img {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.semua-pengajar {
+    background-color: #1FAB89;
+    width: 210px;
+    height: 46px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    justify-content: flex-end;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.semua-pengajar {
+    display: flex;
+    justify-content: center;
+}
+
+.program.card {
+    width: 42%;
+}
+
+.tahsin img {
+    height: 182px;
+}
+
+.program {
+    align-items: center;
+}
+
+.profile {
+    width: 190px;
+    margin-bottom: 5%;
+}
+
+/* ! FOOTER */
+
+footer {
+    background-color: #01937C;
+    padding: 1px;
+}
+
+.kontak a{
+    margin-right: 20px;
+    
+}
+
+.cari input {
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+/* NOTE: Responsive Breakpoint */
+
+/* Tablet Size */
+@media screen and (max-width: 768px) {
+    .menu {
+        display: inline;
+        cursor: pointer;
+    }
+    
+    .nav-content ul{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 0;
+        background-color: #01937C;;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .kumpulan-program .card{
+        width: 14em;
+        margin-top: 20px;
+    }
+
+    .maskot {
+        height: 20rem;
+        width: 17rem;
+    }
+
+    .flex-row {
+        flex-direction: column;
+    }
+
+    .pengajar-pro {
+        align-items: center;
+    }
+
+    .pengajar {
+        margin-bottom: 5%;
+    }
+
+    .kumpulan-program {
+        flex-direction: row;
+    }
+
+    .wa-pengajar {
+        background-color: #FF8B00;
+        width: 120px;
+        border-radius: 8px;
+        align-items: center;
+        padding: 0 14px;
+        flex-direction: row;
+    }
+    
+    .wa-pengajar img {
+        height: 24px;
+        margin-right: 10px;
+    }
+    
+    .container {
+        flex-direction: row;
+    }
+
+    .profile-kami {
+        align-items: center;
+    }
+
+    .close {
+        display: block;
+    }
+    
+}
+
+/* Phone Size */
+@media screen and (max-width: 576px) {
+    
+    .kumpulan-program {
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
